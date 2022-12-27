@@ -178,6 +178,22 @@ ul {
     justify-content: space-between;
 }
 
+.back-descr {
+    background: #F4F4FD;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+}
+
 .descr {
     font-weight: 600;
     font-size: 20px;
@@ -197,7 +213,7 @@ ul {
     margin-left: auto;
     width: 264px;
     height: 72px;
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .about-work .container {
@@ -242,6 +258,29 @@ ul {
 .box-team {
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.icon-team {
+    width: 16px;
+    height: 16px;
+}
+
+.team-links {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 .picture-list {
@@ -313,6 +352,47 @@ img {
     letter-spacing: 0.02em;
     color: #434455;
     margin: 0;
+}
+
+.customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.cust {
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 72px;
+}
+
+.logo-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.logo-item {
+    width: 104px;
+    height: 56px;
+}
+
+.box-logo {
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 168px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-foot {
