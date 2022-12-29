@@ -6,7 +6,6 @@ body {
     width: 1158px; 
     padding: 0 15px; 
     margin: 0 auto;
-
 }
 
 header .container {
@@ -273,6 +272,11 @@ ul {
     height: 16px;
 }
 
+.icon-foot {
+    width: 16px;
+    height: 16px;
+}
+
 .team-links {
     display: flex;
     width: 40px;
@@ -281,6 +285,32 @@ ul {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+}
+
+.foot-links {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.links-container {
+        width: 1158px; 
+    padding: 0 15px; 
+    margin: 0 auto;
 }
 
 .picture-list {
