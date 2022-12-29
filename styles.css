@@ -103,11 +103,12 @@ ul {
     text-align: center;
     padding-top: 192px;
     padding-bottom: 192px;
-    background-image: url(./images/people-office.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office.png);
     background-repeat: no-repeat;
     max-width: 1440px;
     max-height: 600px;
     margin: 0 auto;
+
 }
 
 .main-button{
@@ -275,11 +276,13 @@ ul {
 .icon-team {
     width: 16px;
     height: 16px;
+    fill: #F4F4FD;
 }
 
 .icon-foot {
     width: 16px;
     height: 16px;
+    fill: #F4F4FD;
 }
 
 .team-links {
@@ -302,6 +305,8 @@ ul {
     justify-content: center;
 }
 
+
+
 .foot-text {
     font-family: 'Roboto';
     font-style: normal;
@@ -310,10 +315,12 @@ ul {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin: 0;
+    margin-left: 120px;
 }
 
 .links-container {
-        width: 1158px; 
+    width: 1158px; 
     padding: 0 15px; 
     margin: 0 auto;
 }
@@ -418,6 +425,7 @@ img {
 .logo-item {
     width: 104px;
     height: 56px;
+    fill: #AFB1B8;
 }
 
 .box-logo {
@@ -434,6 +442,7 @@ img {
     width: 1158px; 
     padding: 0 15px; 
     margin: 0 auto;
+    display: flex;
 }
 
 .back-foot {
@@ -459,6 +468,15 @@ img {
     order: 0;
     flex-grow: 0;
     text-decoration: none;
+}
+
+.social-links-foot {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 120px;
 }
 
 .studio-foot {
