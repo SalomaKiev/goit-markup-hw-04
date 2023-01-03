@@ -124,8 +124,9 @@ ul {
     cursor: pointer;
 }
 
-.main-button:hover {
-    fill: #404BBF;
+.main-button:hover,
+.main-button:focus{
+    background-color: #404BBF;
 }
 
 .description {
@@ -201,6 +202,7 @@ ul {
 .icon {
     width: 64px;
     height: 64px;
+    fill: currentColor;
 }
 
 .descr {
@@ -301,8 +303,13 @@ ul {
 }
 
 .team-links:hover {
-    fill: #404BBF;
+    background-color:  #404BBF;
 }
+
+..team-links:focus {
+    background-color:  #404BBF;
+}
+
 
 .foot-links {
     display: flex;
@@ -314,8 +321,9 @@ ul {
     justify-content: center;
 }
 
+
 .foot-links:hover {
-    fill: #31D0AA;
+    background-color:  #31D0AA;
 }
 
 .foot-text {
@@ -454,8 +462,15 @@ img {
 }
 
 .box-logo:hover {
-    fill: #404BBF;
+    border: 1px solid #404BBF;
+    border-radius: 4px
 }
+
+..box-logo:focus {
+    border: 1px solid #404BBF;
+    border-radius: 4px
+}
+
 
 .container-foot {
     width: 1158px; 
