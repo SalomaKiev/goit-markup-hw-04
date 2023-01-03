@@ -124,6 +124,10 @@ ul {
     cursor: pointer;
 }
 
+.main-button:hover {
+    fill: #404BBF;
+}
+
 .description {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -279,6 +283,7 @@ ul {
     fill: #F4F4FD;
 }
 
+
 .icon-foot {
     width: 16px;
     height: 16px;
@@ -293,6 +298,7 @@ ul {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    fill:#4D5AE5;
 }
 
 .foot-links {
@@ -304,6 +310,7 @@ ul {
     align-items: center;
     justify-content: center;
 }
+
 
 
 
@@ -428,6 +435,10 @@ img {
     fill: #AFB1B8;
 }
 
+.logo-item:hover {
+    fill: #404BBF;
+}
+
 .box-logo {
     border: 1px solid #8E8F99;
     border-radius: 4px;
@@ -436,6 +447,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box-logo:hover {
+    fill: #404BBF;
 }
 
 .container-foot {
