@@ -298,7 +298,10 @@ ul {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    fill:#4D5AE5;
+}
+
+.team-links:hover {
+    fill: #404BBF;
 }
 
 .foot-links {
@@ -311,8 +314,9 @@ ul {
     justify-content: center;
 }
 
-
-
+.foot-links:hover {
+    fill: #31D0AA;
+}
 
 .foot-text {
     font-family: 'Roboto';
