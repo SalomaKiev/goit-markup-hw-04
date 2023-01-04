@@ -188,8 +188,7 @@ ul {
 .other-button:hover,
 .other-button:focus{
     background-color: #404BBF;
-    color: 
-#FFFFFF;
+    color: #FFFFFF;
 }
 
 
@@ -211,11 +210,7 @@ ul {
     margin-bottom: 8px;
 }
 
-.icon {
-    width: 64px;
-    height: 64px;
-    fill: currentColor;
-}
+
 
 .descr {
     font-weight: 600;
@@ -297,6 +292,10 @@ ul {
     fill: #F4F4FD;
 }
 
+.icon {
+    width: 64px;
+    height: 64px;
+}
 
 .icon-foot {
     width: 16px;
@@ -375,7 +374,7 @@ img {
 
 .box-picture :hover {
     border: 0.5px solid #F4F4FD;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .box-p {
@@ -465,17 +464,9 @@ img {
 .logo-item {
     width: 104px;
     height: 56px;
-    fill: #AFB1B8;
+    fill: currentColor;
+    
 }
-
-.logo-item:hover {
-    fill: #404BBF;
-}
-
-.logo-item:focus {
-    fill: #404BBF;
-}
-
 
 .box-logo {
     border: 1px solid #8E8F99;
@@ -485,16 +476,17 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #8E8F99;
 }
 
 .box-logo:hover {
     border: 1px solid #404BBF;
-    border-radius: 4px
+    color: #404BBF;
 }
 
 .box-logo:focus {
     border: 1px solid #404BBF;
-    border-radius: 4px
+    color: #404BBF;
 }
 
 
