@@ -46,6 +46,7 @@ ul {
     color: #4D5AE5;
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 76px;
 }
 
 .studio {
@@ -55,7 +56,6 @@ ul {
     line-height: 1.3;
     text-decoration: none;
     color: #2E2F42;
-    margin-right: 76px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -72,6 +72,10 @@ ul {
     margin-left: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+}
+
+.nav-links :first-child {
+    margin: 0;
 }
 
 .tel {
@@ -180,6 +184,13 @@ ul {
     cursor: pointer;
     margin-left: 24px;
 }
+
+.other-button:hover,
+.other-button:focus{
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
 
 .descr-list {
     display: flex;
@@ -306,7 +317,7 @@ ul {
     background-color:  #404BBF;
 }
 
-..team-links:focus {
+.team-links:focus {
     background-color:  #404BBF;
 }
 
@@ -323,6 +334,10 @@ ul {
 
 
 .foot-links:hover {
+    background-color:  #31D0AA;
+}
+
+.foot-links:focus {
     background-color:  #31D0AA;
 }
 
@@ -451,6 +466,11 @@ img {
     fill: #404BBF;
 }
 
+.logo-item:focus {
+    fill: #404BBF;
+}
+
+
 .box-logo {
     border: 1px solid #8E8F99;
     border-radius: 4px;
@@ -466,7 +486,7 @@ img {
     border-radius: 4px
 }
 
-..box-logo:focus {
+.box-logo:focus {
     border: 1px solid #404BBF;
     border-radius: 4px
 }
