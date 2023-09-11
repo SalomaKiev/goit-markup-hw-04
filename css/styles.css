@@ -522,6 +522,16 @@ li {
     margin-left: 120px;
 }
 
+.social-links-foot {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin: 0;
+    margin-top: 8px;
+    margin-left: 120px;
+}
+
+
 .icon-foot {
     width: 16px;
     height: 16px;
