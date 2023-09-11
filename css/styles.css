@@ -469,6 +469,7 @@ li {
 
     width: 264px;
     margin-left: 156px;
+    margin-right: 120px;
 }
 
 .web-foot {
@@ -498,7 +499,7 @@ li {
 .footer-container{
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+
 }
 
 .back-foot {
@@ -556,7 +557,8 @@ li {
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    background-color: #4d5ae5   ;
 }
 
 
