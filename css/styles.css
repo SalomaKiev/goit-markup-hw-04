@@ -503,3 +503,46 @@ li {
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+
+.links-container {
+    width: 1158px; 
+    padding: 0 15px; 
+    margin: 0 auto;
+}
+
+.foot-text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 0;
+    margin-left: 120px;
+}
+
+.icon-foot {
+    width: 16px;
+    height: 16px;
+    fill: #F4F4FD;
+}
+
+.foot-links {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.foot-links:hover {
+    background-color:  #31D0AA;
+}
+
+.foot-links:focus {
+    background-color:  #31D0AA;
+}
