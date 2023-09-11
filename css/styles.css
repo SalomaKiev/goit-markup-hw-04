@@ -402,7 +402,7 @@ li {
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-port-cards:hover{
+.port-cards:hover{
     transform: translateY(0%);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -430,7 +430,7 @@ port-cards:hover{
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.box-picture:hover .blue-text{
+.port-cards:hover .blue-text{
     transform: translateY(0%);
     opacity: 1;
 
@@ -498,6 +498,7 @@ port-cards:hover{
 .footer-container{
     display: flex;
     align-items: baseline;
+    margin-right: 120px;
 }
 
 .back-foot {
@@ -529,12 +530,13 @@ port-cards:hover{
     color: #FFFFFF;
     margin: 0;
     margin-left: 120px;
+    margin-bottom: 16px;
 }
 
 .social-links-foot {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
     margin: 0;
     margin-top: 8px;
     margin-left: 120px;
@@ -554,6 +556,7 @@ port-cards:hover{
     border-radius: 50%;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
